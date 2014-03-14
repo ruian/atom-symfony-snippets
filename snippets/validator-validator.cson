@@ -1,0 +1,15 @@
+'.source.php':
+    'sfconstraintvalidator':
+        'prefix': 'sfconstraintvalidator'
+        'body': """
+use Symfony\Component\Validator\Constraint;
+use Symfony\Component\Validator\ConstraintValidator;
+
+class ${1:Name}Validator extends ConstraintValidator
+{
+    public function validate(\$value, Constraint \$constraint)
+    {
+        ${0:}
+    }
+}
+"""

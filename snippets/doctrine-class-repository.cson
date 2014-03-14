@@ -1,0 +1,10 @@
+'.source.php':
+    'sfrepository':
+        'prefix': 'sfrepository'
+        'body': """
+use Doctrine\ORM\EntityRepository;
+
+class ${3:EntityName}Repository extends EntityRepository
+{${0:}
+}
+"""

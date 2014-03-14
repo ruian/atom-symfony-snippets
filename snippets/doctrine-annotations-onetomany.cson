@@ -1,0 +1,8 @@
+'.source.php':
+    'sfonetomanycolumn':
+        'prefix': 'sfonetomanycolumn'
+        'body': """
+/**
+ * @ORM\OneToMany(targetEntity="${1:}", mappedBy="${2:}")
+ */
+"""

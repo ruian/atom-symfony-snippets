@@ -1,0 +1,14 @@
+'.source.php':
+    'sfconstraint':
+        'prefix': 'sfconstraint'
+        'body': """
+use Symfony\Component\Validator\Constraint;
+
+/**
+ * @Annotation
+ */
+class ${1:Name}Constraint extends Constraint
+{
+    public \$message = '${2:}';
+}
+"""

@@ -1,0 +1,6 @@
+'.text.html.twig':
+    'sftwigrow':
+        'prefix': 'sftwigrow'
+        'body': """
+{{ form_row(${1:form}.${2:}) }}
+"""

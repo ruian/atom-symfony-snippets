@@ -1,0 +1,9 @@
+'.source.php':
+    'sfentity':
+        'prefix': 'sfentity'
+        'body': """
+/**
+ * @ORM\Entity()
+ * @ORM\Table(name="${1:name}")
+ */
+"""

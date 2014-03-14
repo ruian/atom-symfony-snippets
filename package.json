@@ -1,0 +1,12 @@
+{
+  "name": "symfony-snippets",
+  "version": "0.1.0",
+  "description": "Symony2 snippets to help you writing code",
+  "repository": "https://github.com/ruian/atom-symfony-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,9 @@
+'.source.php':
+    'sfaction':
+        'prefix': 'sfaction'
+        'body': """
+public function ${1:index}Action(${2:Request $request})
+{
+    return \$this->render('${3:index}.html.twig');
+}
+"""

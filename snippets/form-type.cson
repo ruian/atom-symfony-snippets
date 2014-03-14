@@ -1,0 +1,37 @@
+'.source.php':
+    'sfform':
+        'prefix': 'sfform'
+        'body': """
+use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\OptionsResolver\OptionsResolverInterface;
+
+class ${1:Name}Type extends AbstractType
+{
+    /**
+     * {@inheritdoc}
+     */
+    public function buildForm(FormBuilderInterface \$builder, array \$options)
+    {
+        ${0:}
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setDefaultOptions(OptionsResolverInterface \$resolver)
+    {
+        \$resolver->setDefaults(array(${2:
+            'data_class' => '${3:}',
+        }));
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getName()
+    {
+        return '${4:}';
+    }
+}
+"""

@@ -1,0 +1,8 @@
+'.source.php':
+    'sfobjectcolumn':
+        'prefix': 'sfobjectcolumn'
+        'body': """
+/**
+ * @ORM\Column(type="object"${0:})
+ */
+"""

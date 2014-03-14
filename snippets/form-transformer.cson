@@ -1,0 +1,27 @@
+'.source.php':
+    'sfdatatransformer':
+        'prefix': 'sfdatatransformer'
+        'body': """
+use Symfony\Component\Form\DataTransformerInterface;
+use Symfony\Component\Form\Exception\UnexpectedTypeException;
+use Symfony\Component\Form\Exception\TransformationFailedException;
+
+class ${1:Name}Transformer implements DataTransformerInterface
+{
+    /**
+     * {@inheritdoc}
+     */
+    public function transform(\$value)
+    {
+        ${0:}
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function reverseTransform(\$value)
+    {
+
+    }
+}
+"""

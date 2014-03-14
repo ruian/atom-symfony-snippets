@@ -1,0 +1,8 @@
+'.source.php':
+    'sfsmallintcolumn':
+        'prefix': 'sfsmallintcolumn'
+        'body': """
+/**
+ * @ORM\Column(type="smallint"${0:})
+ */
+"""

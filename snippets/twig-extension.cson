@@ -1,0 +1,31 @@
+'.source.php':
+    'sftwigextension':
+        'prefix': 'sftwigextension'
+        'body': """
+class ${3:Name}Extension extends \Twig_Extension
+{
+    /**
+     * {@inheritdoc}
+     */
+    public function getFilters()
+    {
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getTests()
+    {
+        return array();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getFunctions()
+    {
+        return array();
+    }
+}
+"""

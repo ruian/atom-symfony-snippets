@@ -1,0 +1,4 @@
+'.source.php':
+    'sfrepo':
+        'prefix': 'sfrepo'
+        'body': "\$em->getRepository('${1:Bundle:Repository}');"

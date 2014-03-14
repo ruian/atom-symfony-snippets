@@ -1,0 +1,8 @@
+'.source.php':
+    'sftimecolumn':
+        'prefix': 'sftimecolumn'
+        'body': """
+/**
+ * @ORM\Column(type="time"${0:})
+ */
+"""

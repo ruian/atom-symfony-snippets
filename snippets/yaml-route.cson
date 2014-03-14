@@ -1,0 +1,8 @@
+'.source.yml .source.yaml':
+    'sfroute':
+        'prefix': 'sfroute'
+        'body': """
+${1:route_name}:
+    path:      ${2:/}
+    defaults:  { _controller: ${3:Bundle:Controller:action} }
+"""

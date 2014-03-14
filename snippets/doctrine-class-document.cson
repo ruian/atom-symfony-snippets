@@ -1,0 +1,18 @@
+'.source.php':
+    'sfdocumentclass':
+        'prefix': 'sfdocumentclass'
+        'body': """
+use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
+use Symfony\Component\Validator\Constraints as Assert;
+
+/**
+ * @MongoDB\Document(collection="${1:}", repositoryClass="${2:}")
+ */
+class ${3:Document}
+{
+    /**
+     * @MongoDB\Id()
+     */
+    protected \$id;${0:}
+}
+"""

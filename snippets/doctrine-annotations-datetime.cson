@@ -1,0 +1,8 @@
+'.source.php':
+    'sfdatetimecolumn':
+        'prefix': 'sfdatetimecolumn'
+        'body': """
+/**
+ * @ORM\Column(type="datetime"${0:})
+ */
+"""

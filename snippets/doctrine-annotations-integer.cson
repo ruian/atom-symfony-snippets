@@ -1,0 +1,8 @@
+'.source.php':
+    'sfintegercolumn':
+        'prefix': 'sfintegercolumn'
+        'body': """
+/**
+ * @ORM\Column(type="integer"${0})
+ */
+"""

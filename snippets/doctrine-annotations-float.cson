@@ -1,0 +1,8 @@
+'.source.php':
+    'sffloatcolumn':
+        'prefix': 'sffloatcolumn'
+        'body': """
+/**
+ * @ORM\Column(type="float"${0:})
+ */
+"""

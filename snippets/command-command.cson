@@ -1,0 +1,30 @@
+'.source.php':
+    'sfcommand':
+        'prefix': 'sfcommand'
+        'body': """
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+
+class ${1:Default}Command extends Command
+{
+    /**
+     * {@inheritdoc}
+     */
+    protected function configure()
+    {
+        \$this
+            ->setName('${2:default:command}')
+            ->setDescription('${3:Default description}')
+        ;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function execute(InputInterface \$input, OutputInterface \$output)
+    {
+        ${4:// Logic}
+    }
+}
+"""

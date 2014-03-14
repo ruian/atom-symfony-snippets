@@ -1,0 +1,9 @@
+'.source.php':
+    'sfmanytoonecolumn':
+        'prefix': 'sfmanytoonecolumn'
+        'body': """
+/**
+ * @ORM\ManyToOne(targetEntity="${1:}")
+ * @ORM\JoinColumn(name="${2:}", referencedColumnName="${3:}")
+ */
+"""

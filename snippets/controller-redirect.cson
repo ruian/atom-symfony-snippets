@@ -1,0 +1,4 @@
+'.source.php':
+    'sfredirect':
+        'prefix': 'sfredirect'
+        'body': "\$this->redirect(\$this->generateUrl('${1:route}'${2:, array(${3:query})}));"

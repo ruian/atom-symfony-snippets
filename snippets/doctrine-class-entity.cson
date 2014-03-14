@@ -1,0 +1,21 @@
+'.source.php':
+    'sfentityclass':
+        'prefix': 'sfentityclass'
+        'body': """
+use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
+/**
+ * @ORM\Entity(${1:repositoryClass="${2:}"})
+ * @ORM\Table(name="${3:}")
+ */
+class ${4:Entity}
+{
+    /**
+     * @ORM\Id()
+     * @ORM\Column(type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected \$id;${0:}
+}
+"""
