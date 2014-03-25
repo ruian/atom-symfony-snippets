@@ -1,5 +1,5 @@
 '.source.php':
     'sfrepo':
-        'prefix': 'sfcurruser'
-        'body': """# Get current user
-        \$user = \$this->get('security.context')->getToken()->getUser();"""
+        'prefix': 'sfuser'
+        'body': """# Get user
+        \$user = \$this->getUser();"""
