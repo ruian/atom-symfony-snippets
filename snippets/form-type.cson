@@ -2,9 +2,9 @@
     'sfform':
         'prefix': 'sfform'
         'body': """
-use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\FormBuilderInterface;
-use Symfony\Component\OptionsResolver\OptionsResolverInterface;
+use Symfony\\Component\\Form\\AbstractType;
+use Symfony\\Component\\Form\\FormBuilderInterface;
+use Symfony\\Component\\OptionsResolver\\OptionsResolverInterface;
 
 class ${1:Name}Type extends AbstractType
 {

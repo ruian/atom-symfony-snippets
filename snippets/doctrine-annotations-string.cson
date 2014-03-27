@@ -3,6 +3,6 @@
         'prefix': 'sfstringcolumn'
         'body': """
 /**
- * @ORM\Column(type="string", length=${1:255}${0:})
+ * @ORM\\Column(type="string", length=${1:255}${0:})
  */
 """

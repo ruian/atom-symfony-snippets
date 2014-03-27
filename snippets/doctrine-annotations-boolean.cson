@@ -3,6 +3,6 @@
         'prefix': 'sfbooleancolumn'
         'body': """
 /**
- * @ORM\Column(type="boolean"${0:})
+ * @ORM\\Column(type="boolean"${0:})
  */
 """

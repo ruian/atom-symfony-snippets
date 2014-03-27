@@ -3,6 +3,6 @@
         'prefix': 'sfintegercolumn'
         'body': """
 /**
- * @ORM\Column(type="integer"${0})
+ * @ORM\\Column(type="integer"${0})
  */
 """

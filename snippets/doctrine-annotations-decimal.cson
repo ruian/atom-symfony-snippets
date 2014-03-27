@@ -3,6 +3,6 @@
         'prefix': 'sfdecimalcolumn'
         'body': """
 /**
- * @ORM\Column(type="decimal"${0:})
+ * @ORM\\Column(type="decimal"${0:})
  */
 """

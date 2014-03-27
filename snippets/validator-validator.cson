@@ -2,8 +2,8 @@
     'sfconstraintvalidator':
         'prefix': 'sfconstraintvalidator'
         'body': """
-use Symfony\Component\Validator\Constraint;
-use Symfony\Component\Validator\ConstraintValidator;
+use Symfony\\Component\\Validator\\Constraint;
+use Symfony\\Component\\Validator\\ConstraintValidator;
 
 class ${1:Name}Validator extends ConstraintValidator
 {

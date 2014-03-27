@@ -3,6 +3,6 @@
         'prefix': 'sfonetomanycolumn'
         'body': """
 /**
- * @ORM\OneToMany(targetEntity="${1:}", mappedBy="${2:}")
+ * @ORM\\OneToMany(targetEntity="${1:}", mappedBy="${2:}")
  */
 """

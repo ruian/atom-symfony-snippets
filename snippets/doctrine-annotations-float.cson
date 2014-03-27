@@ -3,6 +3,6 @@
         'prefix': 'sffloatcolumn'
         'body': """
 /**
- * @ORM\Column(type="float"${0:})
+ * @ORM\\Column(type="float"${0:})
  */
 """

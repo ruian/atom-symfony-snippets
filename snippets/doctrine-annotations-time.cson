@@ -3,6 +3,6 @@
         'prefix': 'sftimecolumn'
         'body': """
 /**
- * @ORM\Column(type="time"${0:})
+ * @ORM\\Column(type="time"${0:})
  */
 """

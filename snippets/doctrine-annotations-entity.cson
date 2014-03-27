@@ -3,7 +3,7 @@
         'prefix': 'sfentity'
         'body': """
 /**
- * @ORM\Entity()
- * @ORM\Table(name="${1:name}")
+ * @ORM\\Entity()
+ * @ORM\\Table(name="${1:name}")
  */
 """
