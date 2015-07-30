@@ -3,6 +3,6 @@
         'prefix': 'sftextcolumn'
         'body': """
 /**
- * @ORM\\Column(type="text"${0:})
+ * @ORM\\\\Column(type="text"${0:})
  */
 """

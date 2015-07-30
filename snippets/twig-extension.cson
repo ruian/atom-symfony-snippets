@@ -2,7 +2,7 @@
     'sftwigextension':
         'prefix': 'sftwigextension'
         'body': """
-class ${3:Name}Extension extends \\Twig_Extension
+class ${3:Name}Extension extends \\\\Twig_Extension
 {
     /**
      * {@inheritdoc}

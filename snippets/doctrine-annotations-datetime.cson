@@ -3,6 +3,6 @@
         'prefix': 'sfdatetimecolumn'
         'body': """
 /**
- * @ORM\\Column(type="datetime"${0:})
+ * @ORM\\\\Column(type="datetime"${0:})
  */
 """

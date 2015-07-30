@@ -3,6 +3,6 @@
         'prefix': 'sfbigintcolumn'
         'body': """
 /**
- * @ORM\\Column(type="bigint"${0:})
+ * @ORM\\\\Column(type="bigint"${0:})
  */
 """

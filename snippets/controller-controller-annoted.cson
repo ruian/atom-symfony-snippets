@@ -2,10 +2,10 @@
     'sfcontrollera':
         'prefix': 'sfcontrollera'
         'body': """
-use Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Route;
-use Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Template;
-use Symfony\\Bundle\\FrameworkBundle\\Controller\\Controller;
-use Symfony\\Component\\HttpFoundation\\Request;
+use Sensio\\\\Bundle\\\\FrameworkExtraBundle\\\\Configuration\\\\Route;
+use Sensio\\\\Bundle\\\\FrameworkExtraBundle\\\\Configuration\\\\Template;
+use Symfony\\\\Bundle\\\\FrameworkBundle\\\\Controller\\\\Controller;
+use Symfony\\\\Component\\\\HttpFoundation\\\\Request;
 
 class ${1:Default}Controller extends Controller
 {
