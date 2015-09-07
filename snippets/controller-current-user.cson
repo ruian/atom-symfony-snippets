@@ -1,0 +1,5 @@
+'.source.php':
+    'sfrepo':
+        'prefix': 'sfuser'
+        'body': """# Get user
+        \$user = \$this->getUser();"""
