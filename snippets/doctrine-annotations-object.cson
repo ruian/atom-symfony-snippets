@@ -3,6 +3,6 @@
         'prefix': 'sfobjectcolumn'
         'body': """
 /**
- * @ORM\\Column(type="object"${0:})
+ * @ORM\\\\Column(type="object"${0:})
  */
 """

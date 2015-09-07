@@ -3,6 +3,6 @@
         'prefix': 'sfarraycolumn'
         'body': """
 /**
- * @ORM\\Column(type="array"${0:})
+ * @ORM\\\\Column(type="array"${0:})
  */
 """
