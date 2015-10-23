@@ -1,0 +1,4 @@
+'.source.php':
+    'sfrequest':
+        'prefix': 'sfrequest'
+        'body': "\$request = \$this->getRequest();"
