@@ -1,6 +1,6 @@
 {
   "name": "symfony-snippets",
-  "version": "0.3.0",
+  "version": "0.4.1",
   "description": "Symony2 snippets to help you writing code",
   "repository": "https://github.com/ruian/atom-symfony-snippets",
   "license": "MIT",
